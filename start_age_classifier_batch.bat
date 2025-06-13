@@ -27,7 +27,7 @@ if not exist "venv_age_classifier" (
 )
 
 REM Check if main script exists
-if not exist "multi_model_age_classifier_cleaned.py" (
+if not exist "multi_model_age_classifier.py" (
     echo ERROR: Main application file not found!
     echo Please ensure all files are in the same directory.
     echo Try running install_age_classifier_batch.bat again.
@@ -65,7 +65,7 @@ echo ================================================================
 echo.
 
 REM Start the application with error handling
-python multi_model_age_classifier_cleaned.py
+python multi_model_age_classifier.py
 if %errorlevel% neq 0 (
     echo.
     echo ERROR: Application failed to start!
