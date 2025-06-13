@@ -1,6 +1,6 @@
 @echo off
 REM ================================================================
-REM    start_age_classifier_batch.bat - Version 2.0 FINAL
+REM    start_age_classifier_batch.bat - Version 2.2 ULTRA-ROBUST
 REM    Age Classifier - Application Launcher
 REM    Created: 2024 - kvmierlo3
 REM    This is the LATEST VERSION - Use this file
@@ -27,7 +27,7 @@ if not exist "venv_age_classifier" (
 )
 
 REM Check if main script exists
-if not exist "multi_model_age_classifier.py" (
+if not exist "multi_model_age_classifier_cleaned.py" (
     echo ERROR: Main application file not found!
     echo Please ensure all files are in the same directory.
     echo Try running install_age_classifier_batch.bat again.
